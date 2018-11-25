@@ -1,4 +1,4 @@
-# centos-sshddocker
+# centos-sshd
 Systemd enabled container with openssh-server
 ### Run with the cgroups filesystem mounted
 `docker run -d -P -v /sys/fs/cgroup:/sys/fs/cgroup:ro boolivar/centos-sshd:latest`
